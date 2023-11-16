@@ -1,0 +1,4 @@
+com\yc\controller\HelloController.class
+com\yc\service\Calculator.class
+com\yc\MyApp.class
+com\yc\bean\Student.class

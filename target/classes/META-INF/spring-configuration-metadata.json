@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "product",
+      "type": "com.yc.bean.Product",
+      "sourceType": "com.yc.bean.Product"
+    }
+  ],
+  "properties": [
+    {
+      "name": "product.address",
+      "type": "com.yc.bean.Address",
+      "sourceType": "com.yc.bean.Product"
+    },
+    {
+      "name": "product.attribute",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.yc.bean.Product"
+    },
+    {
+      "name": "product.is-used",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.yc.bean.Product"
+    },
+    {
+      "name": "product.man-data",
+      "type": "lombok.Data",
+      "sourceType": "com.yc.bean.Product"
+    },
+    {
+      "name": "product.pname",
+      "type": "java.lang.String",
+      "sourceType": "com.yc.bean.Product"
+    },
+    {
+      "name": "product.price",
+      "type": "java.lang.Double",
+      "sourceType": "com.yc.bean.Product"
+    },
+    {
+      "name": "product.types",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.yc.bean.Product"
+    }
+  ],
+  "hints": []
+}

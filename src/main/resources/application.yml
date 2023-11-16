@@ -1,0 +1,45 @@
+product:
+  pname: apple
+  price: 20.5
+  is-used: true
+  man-date: 2021/09/09
+
+  attributes: {'color': 'red','type':'good'}
+  address:
+    province: 湖南省
+    city: 长沙
+  types:
+    - 水果
+    - 零食
+
+server:
+  port: 9000
+
+yc:
+  driverClassName: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/yc125bbs?serverTimezone=UTC
+  username: root
+  password: aaaa
+
+#激活文件
+spring:
+  profiles:
+    active: "prod"
+  redis:
+    database: 0
+    port: 6379
+    lettuce:
+      pool:
+        max-idle: 8
+        min-idle: 0
+
+
+logging:
+  level:
+    root: error
+    org.springframework: error
+    org.apache: error
+  file:
+    path: logs/
+#    name: mylog.log
+
